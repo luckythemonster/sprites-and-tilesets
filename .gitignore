@@ -1,0 +1,27 @@
+# Extracted assets (large directory)
+ASSETS/
+ARCHIVES/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
