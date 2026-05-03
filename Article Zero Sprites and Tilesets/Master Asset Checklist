@@ -1,0 +1,47 @@
+Master Asset Checklist: Phaser 4 Rendering
+Global Assets
+UI/HUD Sprites (Phaser side):
+Proximity/Threat Indicator (A minimalistic, sterile UI ring or line that tightens as enemies approach).
+Thermal Load Tracker (For Arc 2/3 - simple geometric blocks filling up, not a standard "health bar").
+Airflow Indicators (Subtle, semi-transparent directional arrows or drifting dust motes to show The Current).
+Arc 1: The Configuration (Rowan Ibarra)
+Theme: Micro-perfect, sterile, oppressive brightness. No dirt, no shadows, no humanity.
+Tileset 1: NW-SMAC-01
+Floors: Pristine white/blue ceramic tiles. High gloss.
+Walls: Smooth, unblemished synthetic stone with harsh 90-degree corners.
+Decorations: Sterile server racks, standardized orderly carts, perfectly aligned lighting strips.
+Doors: Standard sliding bulkheads (Clean).
+Interactables
+Session Terminal: A sleek, upright console. Needs two states: Idle and Active (jacked in).
+Mesh Uplink: A heavy, floor-mounted transmission node (The extraction point).
+The Fragment Box: A bulky, heavy black cube (Item drop on the floor).
+Characters (Animations: Idle, Walk, 4-Direction)
+Rowan Ibarra: Dressed in a drab, standardized orderly uniform. Must look entirely unremarkable.
+Rowan (Encumbered): A critical secondary animation set. Rowan visibly struggling to carry the heavy Fragment Box. Slower frame rate, hunched posture.
+Commonwealth Enforcers: Faceless, heavily armored, moving with rigid, synchronized mathematical precision.
+Arc 2: The Baffle (The Finder)
+Theme: Corrosion, heavy shadows, mythic decay. The pristine geometry of Arc 1 is crushed and rusted.
+Tileset 2: The Feral Surface
+Floors: Rusted iron grating. Deep, dark gaps where the floor has fallen away.
+Walls: Massive, curved acoustic baffles and stationary turbine blades. Covered in dark, caustic sludge.
+Decorations: Bioluminescent mold colonies (used for faint light), piles of unidentifiable crushed machinery.
+Doors: The "Judging Doors." Massive blast doors that are visibly stuck off-axis.
+Interactables
+Corrupted Terminals: Smashed screens with exposed, sparking wire.
+Pneumatic Levers: Heavy, rusted mechanical switches to alter airflow. Needs Left and Right (or Open/Closed) states.
+Characters & Hazards
+The Finder: Bulky silhouette. Wrapped in thick, woven filter-mesh. A heavy physical "Reader" terminal strapped to their chest.
+MITE-3 Swarm: This shouldn't look like a bug swarm. It should be an animated sprite of thermal distortion, static, and shimmering amber sparks.
+Arc 3: The Heat Death (Sol Ibarra-Castro)
+Theme: Claustrophobia, extreme temperature, structural collapse. The void is outside.
+Tileset 3: The Citizen Lattice
+Floors: Heavy industrial plating, visibly buckling or glowing dull red from heat stress.
+Walls: Cramped service shafts wrapped in insulated piping.
+The Void: Background tiles for outer space (visible through sheared-off sections of the station). Just deep black and the violent, expanding orange fire of the dying sun.
+Doors: Emergency airlocks.
+Interactables
+The Archive Terminal: The final console. Needs to look ancient but heavily shielded.
+The Payload Cannon: A massive railgun/launch tube structure occupying a large portion of the final room.
+Characters & Hazards
+Sol Ibarra-Castro: A utilitarian, heat-shielded maintenance suit. Stripped of all Commonwealth insignia.
+Structural Shears: Floor tiles that visibly crack when stepped on, requiring a different sprite for Intact, Stressed, and Destroyed.
